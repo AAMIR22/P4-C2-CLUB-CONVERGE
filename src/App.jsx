@@ -10,6 +10,7 @@ import EventsSection from './components/EventsSection'
 import CommunitySection from './components/CommunitySection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import NeonCursor from './components/NeonCursor'
 import { galleryItems } from './data/events'
 import './App.css'
 
@@ -76,6 +77,7 @@ function App() {
 
   return (
     <div id="top" className="page-shell">
+      <NeonCursor />
       <Navbar />
 
       <main className="main-content">
